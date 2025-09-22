@@ -19,55 +19,35 @@
 <body class="d-flex flex-column min-vh-100">
 
   <!-- Navigation Bar -->
-  <!-- Full Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
-  <div class="container">
-
-    <!-- Brand with Logo -->
-    <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
-      <img src="images/LOGO.webp" alt="Maa Shailputri Logo" width="40" height="40" class="me-2 rounded-circle shadow-sm">
-      🌸 Maa Shailputri
-    </a>
-
-    <!-- Toggle button for mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar Links -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav gap-3">
-        <li class="nav-item">
-          <a class="nav-link active" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#significance">Significance</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#symbolism">Symbolism</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#worship">Worship</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#mantra">Mantra</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+        <img src="images/LOGO.webp" alt="Maa Shailputri Logo" width="40" height="40" class="me-2 rounded-circle shadow-sm">
+        🌸 Maa Shailputri
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-2"> <!-- reduced gap for tighter layout -->
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#significance">Significance</a></li>
+          <li class="nav-item"><a class="nav-link" href="#symbolism">Symbolism</a></li>
+          <li class="nav-item"><a class="nav-link" href="#worship">Worship</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mantra">Mantra</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!-- Header Section -->
-  <header id="home" class="text-center py-5 bg-light">
+  <header id="home" class="text-center py-4 bg-light"> <!-- reduced padding -->
     <div class="container">
-      <h1 class="display-4 fw-bold">Maa Shailputri – Daughter of the Himalayas</h1>
-      <p class="lead mt-3">Embrace the divine grace of Maa Shailputri, the embodiment of purity and strength.</p>
+      <h1 class="display-5 fw-bold">Maa Shailputri – Daughter of the Himalayas</h1> <!-- smaller heading -->
+      <p class="lead mt-2">Embrace the divine grace of Maa Shailputri, the embodiment of purity and strength.</p>
     </div>
   </header>
 
@@ -75,10 +55,10 @@
   <main class="flex-grow-1">
 
     <!-- Image Section -->
-    <section id="gallery" class="py-5 bg-light">
+    <section id="gallery" class="py-3 bg-light"> <!-- compact -->
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">Divine Portrait</h2>
-        <p class="fs-5 mx-auto mb-4" style="max-width: 700px;">
+        <h2 class="h4 fw-bold mb-3">Divine Portrait</h2>
+        <p class="fs-6 mx-auto mb-3" style="max-width: 700px;">
           A beautiful depiction of Maa Shailputri, radiating purity and strength.
         </p>
         <div class="shadow rounded overflow-hidden d-inline-block">
@@ -89,10 +69,10 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5">
+    <section id="about" class="py-3">
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">About Maa Shailputri</h2>
-        <p class="fs-5 mx-auto" style="max-width: 700px;">
+        <h2 class="h4 fw-bold mb-3">About Maa Shailputri</h2>
+        <p class="fs-6 mx-auto" style="max-width: 700px;">
           Maa Shailputri, the first form of Goddess Durga, is revered as the daughter of the Himalayas.
           Her divine presence embodies the strength and serenity of the mountains, offering blessings
           of purity and unwavering resolve to her devotees. She is often depicted with a lotus in one hand
@@ -102,10 +82,10 @@
     </section>
 
     <!-- Significance Section -->
-    <section id="significance" class="py-5">
+    <section id="significance" class="py-3">
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">Significance</h2>
-        <p class="fs-5 mx-auto" style="max-width: 750px;">
+        <h2 class="h4 fw-bold mb-3">Significance</h2>
+        <p class="fs-6 mx-auto" style="max-width: 750px;">
           Maa Shailputri represents devotion, purity, and determination. She is worshipped on the
           first day of Navratri. Devotees believe her worship purifies the mind and strengthens
           one’s spiritual journey.
@@ -114,10 +94,10 @@
     </section>
 
     <!-- Symbolism Section -->
-    <section id="symbolism" class="py-5 bg-light">
+    <section id="symbolism" class="py-3 bg-light">
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">Symbolism & Iconography</h2>
-        <p class="fs-5 mx-auto" style="max-width: 750px;">
+        <h2 class="h4 fw-bold mb-3">Symbolism & Iconography</h2>
+        <p class="fs-6 mx-auto" style="max-width: 750px;">
           Maa Shailputri rides the sacred bull <strong>Nandi</strong>, symbolizing truth and loyalty.
           She holds a <strong>trident</strong>, representing courage, and a <strong>lotus</strong>, symbolizing peace and purity.
         </p>
@@ -125,10 +105,10 @@
     </section>
 
     <!-- Worship Section -->
-    <section id="worship" class="py-5">
+    <section id="worship" class="py-3">
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">Worship & Rituals</h2>
-        <p class="fs-5 mx-auto" style="max-width: 750px;">
+        <h2 class="h4 fw-bold mb-3">Worship & Rituals</h2>
+        <p class="fs-6 mx-auto" style="max-width: 750px;">
           On the first day of Navratri, devotees worship Maa Shailputri with incense, flowers,
           and offerings. Lighting a lamp before her idol is believed to remove obstacles
           and bring prosperity.
@@ -137,14 +117,14 @@
     </section>
 
     <!-- Mantra Section -->
-    <section id="mantra" class="py-5 bg-light">
+    <section id="mantra" class="py-3 bg-light">
       <div class="container text-center">
-        <h2 class="h3 fw-bold mb-4">Sacred Mantra</h2>
-        <blockquote class="blockquote fs-5 mx-auto" style="max-width: 700px; font-style: italic;">
+        <h2 class="h4 fw-bold mb-3">Sacred Mantra</h2>
+        <blockquote class="blockquote fs-6 mx-auto" style="max-width: 700px; font-style: italic;">
           “ॐ देवी शैलपुत्र्यै नमः”
         </blockquote>
         <p class="small text-muted">
-          Chanting this mantra invokes her blessings for peace, strength, and spiritual growth.
+          Chanting this mantra invokes Maa Shailputri’s peace, strength, and spiritual growth.
         </p>
       </div>
     </section>
@@ -152,19 +132,18 @@
   </main>
 
   <!-- Footer -->
-  <footer class="mt-auto py-4 text-center bg-light">
+  <footer class="mt-auto py-2 text-center bg-light"> <!-- reduced padding -->
     <div class="container">
-      <p class="small mb-2">
+      <p class="small mb-1">
         Made with <i class="fa-solid fa-heart text-danger"></i> by
         <strong class="text-primary highlight-kartik">Kartik</strong>
       </p>
-
       <p>
         <a href="https://github.com/space-infornations" target="_blank" class="text-dark fs-5">
           <i class="fab fa-github"></i>
         </a>
       </p>
-      <p class="small text-muted">© 2024 Divine  Maa shailputr. All rights reserved.</p>
+      <p class="small text-muted">© 2024 Divine Maa Shailputri. All rights reserved.</p>
     </div>
   </footer>
 

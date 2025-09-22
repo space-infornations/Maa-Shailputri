@@ -34,3 +34,10 @@ body {
       color: #d63384; /* Bootstrap pink shade */
       text-shadow: 0 0 8px rgba(214, 51, 132, 0.6);
     }
+
+
+    /* Make all headings pink */
+    h1, h2, h3, h4, h5, h6 {
+      color: #d05a91  !important; /* soft pink */
+      transition: color 0.3s, text-shadow 0.3s;
+    }

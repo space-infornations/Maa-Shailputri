@@ -1,0 +1,36 @@
+body {
+      font-family: 'Newsreader', serif;
+      background-color: #f7f7f7;
+      color: #73738c;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: #18181a;
+      color: #f7f7f7;
+    }
+    .floral-border::before {
+      content: '';
+      display: block;
+      width: 150px;
+      height: 20px;
+      margin: 0 auto 1rem;
+
+    }
+    /* Extra smooth hover effect */
+    #goTopBtn:hover {
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.8), 0 0 30px rgba(255, 215, 0, 0.5);
+      transform: scale(1.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    /* Highlight Kartik */
+    .highlight-kartik {
+      font-size: 1.1rem;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+    .highlight-kartik:hover {
+      color: #d63384; /* Bootstrap pink shade */
+      text-shadow: 0 0 8px rgba(214, 51, 132, 0.6);
+    }

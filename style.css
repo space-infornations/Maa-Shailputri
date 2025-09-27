@@ -1,27 +1,24 @@
 /* ===== General Body ===== */
 body {
   font-family: 'Newsreader', serif;
-  background-color: #f7f7f7;
-  color: #73738c;
+  background-color: #fff9fb;   /* soft white-pink base for purity */
+  color: #6b5d6e;              /* soft gray-lavender for text balance */
   transition: background-color 0.3s, color 0.3s;
-}
-
-/* ===== Dark Mode ===== */
-.dark-mode {
-  background-color: #18181a;
-  color: #f7f7f7;
 }
 
 /* ===== Sections: Ultra-Compact Vertical Gaps ===== */
 section {
-  padding-top: 1.5rem;   /* reduced 50% from 3rem */
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background: linear-gradient(to bottom, #fffefe, #fff4f8); /* divine soft gradient */
 }
 
 /* Header Section */
 header#home {
-  padding-top: 2rem;    /* reduced 50% from 4rem */
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  background: linear-gradient(90deg, #fff9fb, #fddde6); /* subtle pink divine aura */
+  border-bottom: 2px solid #f6b2c0;
 }
 
 /* ===== Floral Border ===== */
@@ -30,18 +27,25 @@ header#home {
   display: block;
   width: 150px;
   height: 20px;
-  margin: 0 auto 0.35rem; /* half of previous */
+  margin: 0 auto 0.35rem;
+  background: linear-gradient(90deg, #fbc2d5, #f7e1ea, #fbc2d5); /* pink aura border */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(249, 182, 208, 0.6);
 }
 
 /* ===== Scroll to Top Button ===== */
 #goTopBtn {
   transition: opacity 0.4s, transform 0.4s;
+  background: #f9e1e8;        /* soft pink button */
+  color: #d05a91;
+  border: 1px solid #f6b2c0;
+  border-radius: 50%;
 }
 
 #goTopBtn:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8),
-              0 0 30px rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 15px rgba(255, 200, 120, 0.9),   /* golden aura */
+              0 0 30px rgba(240, 140, 160, 0.5);   /* pink divine glow */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -50,22 +54,51 @@ header#home {
   font-size: 1.1rem;
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #d05a91;
   transition: color 0.3s, text-shadow 0.3s;
 }
 
 .highlight-kartik:hover {
-  color: #d63384;
-  text-shadow: 0 0 8px rgba(214, 51, 132, 0.6);
+  color: #ff4d94; /* brighter pink */
+  text-shadow: 0 0 12px rgba(255, 215, 150, 0.8); /* golden-pink divine shine */
 }
 
 /* ===== Headings ===== */
 h1, h2, h3, h4, h5, h6 {
-  color: #d05a91 !important;
+  color: #c94a81 !important;   /* shailputri pink */
+  text-shadow: 0 0 6px rgba(255, 200, 210, 0.7);
   transition: color 0.3s, text-shadow 0.3s;
 }
 
 /* ===== Text paragraphs: tighter spacing ===== */
 p.fs-5 {
-  margin-bottom: 0.5rem;  /* half of previous 1rem */
+  margin-bottom: 0.5rem;
   line-height: 1.55;
+  color: #574a54; /* deep grounded gray */
+}
+
+/* ===== Custom Scrollbar ===== */
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fceff3;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #d05a91;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #b03a76;
+}
+
+.small{
+  font-weight: 400 !important;
+  font-size: 22px !important;
 }
